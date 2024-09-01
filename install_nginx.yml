@@ -11,4 +11,4 @@
   - name: install nginx package
     ansible.builtin.apt:
        name: nginx
-       state: present
+       state: latest
